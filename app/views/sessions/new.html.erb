@@ -1,0 +1,9 @@
+<h1>Log in</h1>
+
+<!-- Specify url as there is no variable for this loop -->
+<%= simple_form_for :session, url: session_path do |f| %>
+  <%= f.input :username %>
+  <%= f.input :password %>
+
+  <%= f.button :submit, "Log in" %>
+<% end %>
