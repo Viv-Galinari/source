@@ -32,6 +32,11 @@ gem 'bcrypt', '~> 3.1.7'
 # Add in simple form
 gem 'simple_form'
 
+# add in our admin panel
+gem 'devise'
+gem 'activeadmin'
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
